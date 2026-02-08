@@ -35,6 +35,10 @@ numerical_features = [
     'Distance Driven (since last charge) (km)', 'Temperature (°C)', 'Vehicle Age (years)',
     'start_hour', 'start_day_of_week', 'start_month'
 ]
+# ✅ Home route (ADDED)
+@app.route('/')
+def home():
+    return "ML API is running"
 
 @app.route('/predict', methods=['POST'])
 def predict():
