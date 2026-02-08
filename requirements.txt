@@ -3,5 +3,6 @@ joblib
 pandas
 tensorflow
 os
+Flask
 request
 jsonify
