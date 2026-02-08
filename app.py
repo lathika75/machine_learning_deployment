@@ -8,8 +8,8 @@ import pandas as pd
 app = Flask(__name__)
 
 # Define paths for the model and scaler
-MODEL_PATH = '/content/ann_time_series_model.keras'
-SCALER_PATH = '/content/scaler.pkl'
+MODEL_PATH = 'ann_time_series_model.keras'
+SCALER_PATH = 'scaler.pkl'
 
 # Load the trained Keras model
 try:
