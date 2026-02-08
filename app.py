@@ -35,7 +35,9 @@ numerical_features = [
     'Distance Driven (since last charge) (km)', 'Temperature (°C)', 'Vehicle Age (years)',
     'start_hour', 'start_day_of_week', 'start_month'
 ]
-
+@app.route('/')
+def home():
+    return "ML API is running"
 @app.route('/predict', methods=['POST'])
 def predict():
     if model is None or scaler is None:
