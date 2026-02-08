@@ -1,0 +1,7 @@
+flask
+joblib
+pandas
+tensorflow
+os
+request
+jsonify
